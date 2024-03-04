@@ -8,7 +8,7 @@ __        ___       _____ _ _   _            _
    \_/\_/  |_|_| |_|_|   |_|_| |_|\__,_|\___|_|\_\
 ```
 
-WinFiHack is an recreational attempt by me to rewrite my previous project [Brute-Hacking-Framework's](https://github.com/morpheuslord/Brute-Hacking-Framework-SourceCode) main wifi hacking script that uses netsh and native windows scripts to create a wifi bruteforcer. This is in no way a fast script nor a superior way of doing the same hack but its needs no external libraries and just python and python scripts.
+WinFiHack is a recreational attempt by me to rewrite my previous project [Brute-Hacking-Framework's](https://github.com/morpheuslord/Brute-Hacking-Framework-SourceCode) main wifi hacking script that uses netsh and native Windows scripts to create a wifi bruteforcer. This is in no way a fast script nor a superior way of doing the same hack but it needs no external libraries and just Python and python scripts.
 
 ## Installation
 
@@ -26,15 +26,15 @@ So listing the features:
 
 - _Overall Features:_
   - We can use custom interfaces or non-default interfaces to run the attack.
-  - Well defined way on using netsh and listing and utilizing targets.
-  - Upgradeabilty
+  - Well-defined way of using netsh and listing and utilizing targets.
+  - Upgradeability
 - _Code-Wise Features:_
-  - Interactive menu driven system with `rich`.
-  - versitality in using of interface, targets, and password files.
+  - Interactive menu-driven system with `rich`.
+  - versatility in using interface, targets, and password files.
 
 ## How it works
 
-So this how the bruteforcer actually works:
+So this is how the bruteforcer works:
 
 ```mermaid
 sequenceDiagram
@@ -96,8 +96,11 @@ sequenceDiagram
 
 ## How to run this
 
-After installing all the packages just run `python main.py` rest is history 👍 and make sure you run this on windows cause this wont work on any other OS.
+After installing all the packages just run `python main.py` rest is history 👍 make sure you run this on Windows cause this won't work on any other OS.
+The interface looks like this:
+![image](https://github.com/morpheuslord/WinFiHack/assets/70637311/4f0fd195-7729-47fd-888c-0f1a64f90dce)
+
 
 ## Contributions
 
-For those who think this can be upgraded or made effetient make sure you fork this repo slap in your correction/improvement and create a PR and if its good I will correct and merge it.
+For those who think this can be upgraded or made efficient make sure you fork this repo slap in your correction/improvement and create a PR and if it's good I will correct and merge it.
